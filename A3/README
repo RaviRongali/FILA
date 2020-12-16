@@ -1,0 +1,43 @@
+To Obtain all Plots of Task-1,2,3,4 run the script plots.py
+$python3 plots.py
+
+gridworld.txt has all the grid
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 2 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+
+wind.txt has array of windspeeds
+0 0 0 1 1 1 2 2 1 0
+
+
+To run the code individually
+usage: gridworld.py [-h] [--grid GRID] [--wind WIND] [--actions ACTIONS]
+                    [--episodes EPISODES] [--task TASK]
+                    [--withstocasticity WITHSTOCASTICITY]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --grid GRID           grid file
+  --wind WIND           wind file
+  --actions ACTIONS     no of actions
+  --episodes EPISODES   episodes
+  --task TASK           taskno
+  --withstocasticity WITHSTOCASTICITY
+                        1 if with stocasticity
+
+To run task-1 
+python3 gridworld.py --grid gridfile.txt --wind wind.txt --actions 4 --task 1
+
+To run Task-2
+python3 gridworld.py --grid gridfile.txt --wind wind.txt --actions 8 --task 2
+
+To tun Task-3
+python3 gridworld.py --grid gridfile.txt --wind wind.txt --actions 8 --task 3 --withstocasticity 1
+
+To run Task-4
+python3 gridworld.py --grid gridfile.txt --wind wind.txt --actions 4 --task 4

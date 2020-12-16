@@ -1,0 +1,13 @@
+Valueiteration and Howard policy iterartion:
+algorithms are direct application from class notes 
+
+Howards policy iteration
+for solving the n variables n equation
+https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html
+
+PulP:
+http://benalexkeen.com/linear-programming-with-python-and-pulp-part-4/
+tut for ineualities extra
+
+MDP encoder:
+similar assignment of AIML course same question.Took my submission.

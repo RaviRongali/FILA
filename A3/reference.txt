@@ -1,0 +1,7 @@
+Sudo Code from Class material + Sutton and Barto
+
+for the purpose of seeds
+https://www.geeksforgeeks.org/random-seed-in-python/
+
+numpy lib for random generators
+https://numpy.org/devdocs/reference/random/generated/numpy.random.Generator.choice.html

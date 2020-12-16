@@ -1,0 +1,11 @@
+for the purpose of seeds
+https://www.geeksforgeeks.org/random-seed-in-python/
+
+for thomspon-hint discrete distribution paper from this,but mostly couldnt got wrong results.
+https://arxiv.org/abs/1506.09039
+https://arxiv.org/pdf/1506.09039.pdf
+
+numpy lib for random generators
+https://numpy.org/devdocs/reference/random/generated/numpy.random.Generator.choice.html
+
+remaining UCB,greedy,KL-UCB,thompson sampling are straight forward from lectures
